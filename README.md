@@ -37,7 +37,7 @@ Este proyecto demuestra cómo crear un sistema multi-agente que simule los roles
 ```bash
 ollama serve
 ```
-Y verificar que escucha en http://localhost:11411.
+Y verificar que escucha en http://localhost:11434.
 
 2. Instalar las dependencias:
 
