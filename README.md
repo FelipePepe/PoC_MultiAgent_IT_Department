@@ -62,13 +62,13 @@ Escribe 'salir' para terminar.
 A continuación, unos ejemplos de prompts y lo que deberías observar:
 
 1. Product Owner
-```makefile
+```
 Usuario: Hola, necesito que definas requisitos para la nueva funcionalidad de pagos.
 ```
-    * El router detecta “requisito” → subagente PO (po_chain).
-    * Espera que el LLM responda algo como:
+   * El router detecta “requisito” → subagente PO (po_chain).
+   * Espera que el LLM responda algo como:
 
-```java
+```
 Para manejar estos requisitos, usaré TaskManagerTool('Pagos|Requerimos procesar pagos con tarjeta y PayPal')
 ```
     * Tu script detectará TaskManagerTool('Pagos|Requerimos...') y mostrará:
