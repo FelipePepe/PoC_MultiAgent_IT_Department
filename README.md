@@ -5,7 +5,7 @@ Este proyecto demuestra cómo crear un sistema multi-agente que simule los roles
 * Objetivo: Permitir que diferentes “subagentes” (PO, Dev, QA, DevOps) respondan a diferentes consultas, cada uno con su propio contexto y lógica.
 * Tecnología:
     * LangChain en su nueva API de “runnables”.
-    * Ollama como modelo LLM local (ej. “llama2-7b” en http://localhost:11411).
+    * Ollama como modelo LLM local (ej. “llama2-7b” en http://localhost:11434).
 * Características principales:
     * Router para decidir a qué subagente (rol) enviar la instrucción del usuario.
     * Subagentes definidos como PromptTemplate | OllamaLLM (sin LLMChain).
